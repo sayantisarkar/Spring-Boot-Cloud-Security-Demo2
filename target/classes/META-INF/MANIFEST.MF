@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: dadaram.jadhav
+Build-Jdk: 15.0.1
+Implementation-Title: Demo10001_Rest_JPA_Repository_Security
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.lkm.accenture
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/Demo10001_Rest
+ _JPA_Repository_Security/
+Created-By: Maven Integration for Eclipse
+

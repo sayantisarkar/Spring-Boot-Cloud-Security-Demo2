@@ -1,0 +1,25 @@
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+don't give camel cased names in table scripts
+if you give then it will turn to snake case and will cause problem in execution
+as there will be an impedance mis match between the variable  names and 
+column names 
+to avoid it there are 2 solutions:
+1) give all the column names either in small case or in captial case
+2) if first is not followed then use @column annotation to avoid the ambguity 
+and mapp all the instance varibales to the columns  of the table using either captial case or small case
+so that Spring Boot should not generate the snake case
+
+
+following dependencies are added to make it work:
+  
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		 <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
+        
+ 
